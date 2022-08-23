@@ -1,0 +1,12 @@
+.place__paragrapph {
+  margin: 0 0 26px;
+  padding: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragrapph:last-child {
+  margin: 0;
+}
