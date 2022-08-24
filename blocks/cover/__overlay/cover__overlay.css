@@ -14,7 +14,7 @@
   transition: opacity 0.8s;
 }
 
-.cover__overlay:hover {
+.cover__link:hover .cover__overlay{
   cursor: pointer;
   opacity: 0.8;
 }

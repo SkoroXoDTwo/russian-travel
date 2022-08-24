@@ -7,4 +7,10 @@
   font-size: 18px;
   line-height: 1.22;
   border-bottom: 1px solid white;
+  transition: opacity 0.3s;
+}
+
+.place__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
