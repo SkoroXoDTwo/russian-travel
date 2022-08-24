@@ -1,0 +1,22 @@
+.cover {
+  padding: 0 48px 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover {
+    padding: 0 0 64px;
+  }
+}
