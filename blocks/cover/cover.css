@@ -1,29 +1,23 @@
 .cover {
-  padding: 245px 48px calc(245px + 92px);
+  padding: 0 48px 92px;
   position: relative;
   z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    padding: 195px 0 calc(195px + 92px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    padding: 115px 0 calc(115px + 92px);
+    padding: 0 0 92px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .cover {
-    padding: 115px 0 calc(115px + 64px);
+    padding: 0 0 64px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .cover {
-    padding: 33px 0 calc(33px + 64px);
+    padding: 0 0 64px;
   }
 }
