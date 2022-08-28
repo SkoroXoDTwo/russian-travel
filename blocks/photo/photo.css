@@ -5,14 +5,22 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }
 
+@media screen and (max-width: 1024px) {
+  .photo {
+    gap: 14px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .photo {
     padding: 0 24px 88px;
+    gap: 16px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo {
+    gap: 12px;
     padding: 0 16px 64px;
   }
 }
