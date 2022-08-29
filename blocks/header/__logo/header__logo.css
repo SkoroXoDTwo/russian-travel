@@ -5,6 +5,12 @@
   width: 176px;
   height: 52px;
   background-size: cover;
+  transition: opacity 0.3s;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
